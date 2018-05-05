@@ -18,3 +18,4 @@ mask = (capped_distance[1]<cellsize)
 check = mda.lib.distances.distance_array(points,points,box)
 row, col = np.where(check < cellsize)
 print (len(row)-points.shape[0])/2, (capped_distance[1])[mask].shape
+
