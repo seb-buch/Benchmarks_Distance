@@ -1,0 +1,23 @@
+Num -----| ------- File -----------| -------------Content -------------------------------|
+1. 		SingleQuery_NoPBC	Consists of benchmarks associated with single query
+					for cell-list, different KDtree, Octree (not yet). 
+					It also contains the variation ofexecution time 
+					with respect to variation in particles per cell 
+					for the cell-list data structure for single queries.
+
+2. 		Octree			Comparison of adhoc octree C++ code (Behley 2015),
+					with KDtree (PBC and Non PBC structure).
+
+3. 		CellGrid_Optimization	Optimization of cellgrid module to evaluate optimized
+					particles per cell.
+
+4. 		BM_Selection_SphProtein	Selection around spherical protein centred around the 
+					midpoint of the box. Two different groups of particles
+					are treated as solvent and protein particles.
+
+5. 		BM_Selection_Slab	Two slabs of particles and selection of group of particles 
+					around each other within a cutoff distance
+
+6. 		BM_PairContact		Selection of all particles within a cutoff distance
+					and comparison between KDTree, Celllist, Brute Force
+
